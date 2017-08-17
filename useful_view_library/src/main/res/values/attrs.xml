@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="titleText" format="string" />
+    <attr name="titleTextColor" format="color" />
+    <attr name="titleTextSize" format="dimension" />
+    <attr name="ue_background" format="reference" />
+    <attr name="ue_Button" format="reference" />
+    <attr name="ue_clearSrc" format="reference" />
+    <attr name="ue_isPassword" format="boolean" />
+
+    <declare-styleable name="MaxHeightLayout">
+        <attr name="maxHeight" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="UsefulEditText">
+        <attr name="titleText" />
+        <attr name="titleTextColor" />
+        <attr name="titleTextSize" />
+        <attr name="ue_background" />
+        <attr name="ue_Button" />
+        <attr name="ue_clearSrc" />
+        <attr name="ue_isPassword" />
+    </declare-styleable>
+</resources>

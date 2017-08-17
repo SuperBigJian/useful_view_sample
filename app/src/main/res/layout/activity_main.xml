@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ueEdit="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingEnd="50px"
+    android:paddingStart="50px">
+
+    <com.midea.fridge.useful_view_library.view.UsefulEditText
+        android:id="@+id/et_wifi_dialog_password"
+        android:layout_width="match_parent"
+        android:layout_height="80px"
+        android:layout_marginTop="50px"
+        android:hint="输入密码"
+        android:textColor="#000000"
+        android:textColorHint="#C3C3C3"
+        android:textCursorDrawable="@drawable/useful_et_wifi_cursor"
+        android:textSize="30px"
+        ueEdit:titleText="密码"
+        ueEdit:titleTextColor="#232323"
+        ueEdit:titleTextSize="30px"
+        ueEdit:ue_isPassword="true" />
+
+    <com.midea.fridge.useful_view_library.view.UsefulEditText
+        android:id="@+id/usrInput"
+        android:layout_width="match_parent"
+        android:layout_height="80px"
+        android:layout_marginTop="50px"
+        android:drawablePadding="8px"
+        android:drawableStart="@drawable/useful_ic_account"
+        android:hint="输入"
+        android:inputType="text"
+        android:textColor="#000000"
+        android:textColorHint="#C3C3C3"
+        android:textCursorDrawable="@drawable/useful_et_wifi_cursor"
+        android:textSize="30px"
+        ueEdit:ue_isPassword="false" />
+
+
+    <com.midea.fridge.useful_view_library.view.UsefulEditText
+        android:id="@+id/psdInput"
+        android:layout_width="match_parent"
+        android:layout_height="80px"
+        android:layout_marginTop="50px"
+        android:drawablePadding="8px"
+        android:drawableStart="@drawable/useful_ic_password"
+        android:hint="密码"
+        android:textColor="#000000"
+        android:textColorHint="#C3C3C3"
+        android:textSize="30px"
+        ueEdit:ue_isPassword="true" />
+
+</LinearLayout>

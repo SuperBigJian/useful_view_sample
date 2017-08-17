@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file:///sda/Project/userful_view_sample/app/app.iml" filepath="/sda/Project/userful_view_sample/app/app.iml" />
+      <module fileurl="file:///sda/Project/userful_view_sample/useful_view_library/useful_view_library.iml" filepath="/sda/Project/userful_view_sample/useful_view_library/useful_view_library.iml" />
+      <module fileurl="file:///sda/Project/userful_view_sample/userful_view_sample.iml" filepath="/sda/Project/userful_view_sample/userful_view_sample.iml" />
+    </modules>
+  </component>
+</project>
